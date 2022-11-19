@@ -33,7 +33,7 @@ const HomePage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="google-site-verification" content="w7tS-2bBy0G3y0l4fZSX9SXAE1Y_oMOdKBWYBddN8ZY" />
+        <meta name="google-site-verification" content="C6WoQrEpyFgZ2o-U566apsJdMb-aiuVPUpEaagTjbO4" />
       </Head>
       <Search setVin={setVin} isLoading={isLoading} data={data} />
       <Services />

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: http://vinbenzin.online/sitemap.xml
+Sitemap: http://vinbenzin.online/sitemap1.xml

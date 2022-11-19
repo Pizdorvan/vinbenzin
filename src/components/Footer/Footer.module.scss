@@ -1,0 +1,58 @@
+.footerWrap {
+  background: #010101;
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-weight: 600;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    .telegram {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    .email {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .footerWrap {
+    .footer {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      font-size: 14px;
+    }
+  }
+}

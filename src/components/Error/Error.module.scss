@@ -1,0 +1,31 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 350px;
+  padding: 20px 10px;
+  border-radius: 8px;
+  background: linear-gradient(283.63deg, #f1f3fc 0%, #f7f7fb 100%);
+  gap: 20px;
+
+  .title {
+    box-shadow: 0 12px 32px rgb(169 169 173 / 16%);
+    color: #1d1e21;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.0125em;
+    line-height: 35px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .error {
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+  }
+}

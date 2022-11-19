@@ -1,0 +1,173 @@
+.headerWrap {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  background: linear-gradient(283.63deg, #f1f3fc 0%, #f7f7fb 100%);
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.0125em;
+  line-height: 110%;
+
+  .logo {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.menu {
+  ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    a:hover {
+      transition: 0.3s;
+      color: #20bfb6;
+    }
+  }
+}
+
+.email {
+  svg {
+    path {
+      fill: #1d1e21;
+    }
+  }
+}
+
+.telegram,
+.email {
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  // .burger {
+  //   display: block;
+  //   position: relative;
+  //   width: 30px;
+  //   height: 30px;
+  //   border: 1px solid #1d1e21;
+  //   border-radius: 5px;
+
+  //   &::before,
+  //   &::after {
+  //     content: "";
+  //     position: absolute;
+  //     left: 3px;
+  //     width: 80%;
+  //     height: 2px;
+  //     transition: 0.3s;
+  //     background: #1d1e21;
+  //   }
+
+  //   &::before {
+  //     top: 6px;
+  //   }
+
+  //   &::after {
+  //     bottom: 6px;
+  //   }
+
+  //   span {
+  //     display: block;
+  //     position: absolute;
+  //     top: 13px;
+  //     left: 3px;
+  //     width: 80%;
+  //     height: 2px;
+  //     background: #1d1e21;
+  //   }
+  // }
+
+  // .menu {
+  //   position: fixed;
+  //   top: 0;
+  //   right: -1000px;
+  //   width: 100%;
+  //   height: 100vh;
+  //   padding-top: 100px;
+  //   background: linear-gradient(283.63deg, #f1f3fc 0%, #f7f7fb 100%);
+
+  //   ul {
+  //     gap: 50px;
+  //     flex-direction: column;
+  //     align-items: center;
+
+  //     li {
+  //       margin-bottom: 0;
+  //     }
+  //   }
+  // }
+
+  .telegram,
+  .email {
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .menu {
+    ul {
+      // align-items: center;
+    }
+  }
+
+  // .menu.active {
+  //   top: 65px;
+  //   right: 0;
+  //   margin: 0;
+  //   transition: 0.7s;
+  // }
+
+  // .burger.active {
+  //   &::before {
+  //     top: 13px;
+  //     transform: rotate(45deg);
+  //     transition: 0.3s;
+  //   }
+
+  //   &::after {
+  //     bottom: 13px;
+  //     transform: rotate(-45deg);
+  //     transition: 0.3s;
+  //   }
+
+  //   span {
+  //     visibility: hidden;
+  //     opacity: 0;
+  //   }
+  // }
+}
+
+@media (max-width: 390px) {
+  .menu {
+    ul li:nth-child(2) {
+      display: none;
+    }
+  }
+}

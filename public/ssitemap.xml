@@ -1,55 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-<loc>https://vinbenzin.online/ssitemap1.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap2.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap3.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap4.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap5.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap6.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap7.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap8.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap9.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap10.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap11.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap12.xml</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://vinbenzin.online/ssitemap13.xml</loc>
-<priority>0.8</priority>
-</url>
-</urlset>
+<sitemapindex xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap1.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap2.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap3.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap4.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap5.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap6.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap7.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap8.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap9.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap10.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap11.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap12.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://vinbenzin.online/ssitemap13.xml</loc>
+  </sitemap>
+</sitemapindex>

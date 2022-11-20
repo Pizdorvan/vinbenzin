@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+<loc>https://vinbenzin.online/</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://vinbenzin.online/catalogue</loc>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://vinbenzin.online/#services</loc>
+<priority>0.8</priority>
+</url>
+</urlset>

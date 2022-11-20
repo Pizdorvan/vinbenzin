@@ -3,3 +3,4 @@ Allow: /
 Disallow: /public/sitemap.xml
 Disallow: /public/sitemap1.xml
 Sitemap: https://vinbenzin.online/ssitemap.xml
+Sitemap: https://vinbenzin.online/ssitemap.xml.gz
